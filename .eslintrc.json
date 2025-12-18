@@ -15,6 +15,14 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"
   },
+  "overrides": [
+    {
+      "files": ["src/icons/*.stories.tsx", "src/icons/*.test.tsx"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    }
+  ],
   "settings": {
     "react": {
       "version": "detect"
