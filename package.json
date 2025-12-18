@@ -18,8 +18,8 @@
     "lint": "eslint ./src/ --ext .ts,.tsx",
     "lint:fix": "eslint ./src --ext .ts,.tsx --fix",
     "release": "standard-version",
-    "prepublishOnly": "node scripts/use-npm-readme.js",
-    "postpublish": "node scripts/restore-github-readme.js"
+    "prepublishOnly": "node scripts/prepare-npm-readme.js",
+    "postpublish": "node scripts/restore-readme.js"
   },
   "jest": {
     "testEnvironment": "jsdom"
