@@ -1,6 +1,6 @@
 {
   "name": "flowkitlib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A modern React component library designed for predictable structure, flexibility, and fast UI development.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
